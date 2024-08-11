@@ -24,13 +24,12 @@ import {
   git,
   figma,
   docker,
-  meta,
+  eyexpro,
   starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -63,7 +62,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Frontend Developer",
+    title: "Presta Shop Developer",
     icon: creator,
   },
 ];
@@ -181,28 +180,21 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Abdul Moiz proved me wrong.",
+    name: "Assadullah",
+    designation: "CEO",
+    company: "Une Comp",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' success like Abdul Moiz does.",
+    name: "Muhammad Hunain",
+    designation: "CEO",
+    company: "Divine Knots",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects: TProject[] = [
@@ -225,71 +217,58 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
+    demoLink: "https://unecomp.vercel.app/",
     sourceCodeLink: "https://github.com/abdulmoiz01001/unecomp",
   },
     {
-      name: "Car Rent",
+      name: "EyeX Pro",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Full Stack Movies Web Application based on Mern Stack Technology. Embraing the Latest Technologies and Features to provide the best User Experience.",
       tags: [
         {
-          name: "react",
+          name: "React JS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "SCSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "Express JS",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      sourceCodeLink: "https://github.com/",
+      image: eyexpro,
+      demoLink: "https://eyexpro-1ae83.web.app/",
+      sourceCodeLink: "https://github.com/abdulmoiz01001/eyexpro",
     },
   {
-    name: "Job IT",
+    name: "Divine knots",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Full Stack MERN Stack based Application of Divine Knots Start up NIC Hyderabad. Promoting the Event Management Service with the implimentation of AI Equilizer of Budget management.",
     tags: [
       {
-        name: "react",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Express JS",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    demoLink: "https://divineknots.org/",
+    sourceCodeLink: "https://github.com/abdulmoiz01001/divineKnots-landing-page",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

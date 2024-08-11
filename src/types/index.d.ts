@@ -25,6 +25,7 @@ export type TProject = {
     color: string;
   }[];
   image: string;
+  demoLink: string;
   sourceCodeLink: string;
 } & Required<Pick<TCommonProps, "name">>;
 

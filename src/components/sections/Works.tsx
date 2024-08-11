@@ -15,6 +15,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   description,
   tags,
   image,
+  demoLink,
   sourceCodeLink,
 }) => {
   return (
@@ -47,8 +48,13 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
             </div>
           </div>
           <div className="mt-5">
-            <h3 className="text-[24px] font-bold text-white">{name}</h3>
-            <p className="text-secondary mt-2 text-[14px]">{description}</p>
+            <h3 className="text-[24px] select-none font-bold text-white">{name}</h3>
+            <p className="text-secondary select-none mt-2 text-[14px]">{description}</p>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+          <a href={demoLink} target="_blank" rel="noreferrer">
+            <button className="btn-primary">Live Demo</button>
+          </a>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (
@@ -77,7 +83,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7 border border-red-900 items-center justify-center">
+      <div className="mt-20 flex flex-wrap gap-7 items-center justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
