@@ -27,6 +27,7 @@ import {
   eyexpro,
   starbucks,
   tesla,
+  chat,
   shopify,
   carrent,
   jobit,
@@ -184,7 +185,7 @@ const testimonials: TTestimonial[] = [
     name: "Assadullah",
     designation: "CEO",
     company: "Une Comp",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "assadullah.jpg",
   },
   {
     testimonial:
@@ -192,7 +193,7 @@ const testimonials: TTestimonial[] = [
     name: "Muhammad Hunain",
     designation: "CEO",
     company: "Divine Knots",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "hunain.jpeg",
   },
   
 ];
@@ -217,7 +218,7 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    demoLink: "https://unecomp.vercel.app/",
+    demoLink: "https://unecomp.site/",
     sourceCodeLink: "https://github.com/abdulmoiz01001/unecomp",
   },
     {
@@ -267,6 +268,32 @@ const projects: TProject[] = [
     image: jobit,
     demoLink: "https://divineknots.org/",
     sourceCodeLink: "https://github.com/abdulmoiz01001/divineKnots-landing-page",
+  },
+  {
+    name: "Abdul Moiz Chat App",
+    description:
+          "Full Stack MERN Stack based Application of Divine Knots Start up NIC Hyderabad. Promoting the Event Management Service with the implimentation of AI Equilizer of Budget management.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chat,
+    demoLink: "",
+    sourceCodeLink: "https://github.com/abdulmoiz01001/abdulmoiz-chat-app",
   },
   
 ];

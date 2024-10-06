@@ -52,9 +52,13 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
             <p className="text-secondary select-none mt-2 text-[14px]">{description}</p>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
-          <a href={demoLink} target="_blank" rel="noreferrer">
-            <button className="btn-primary">Live Demo</button>
-          </a>
+         {
+          demoLink ? <><a href={demoLink} target="_blank" rel="noreferrer">
+          <button className="btn-primary">Live Demo</button>
+        </a></> : <><a >
+          <button className="btn-danger">Coming Soon</button>
+        </a></>
+         } 
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (
