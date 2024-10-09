@@ -27,6 +27,7 @@ import {
   eyexpro,
   starbucks,
   tesla,
+  food,
   chat,
   shopify,
   carrent,
@@ -268,6 +269,32 @@ const projects: TProject[] = [
     image: jobit,
     demoLink: "https://divineknots.org/",
     sourceCodeLink: "https://github.com/abdulmoiz01001/divineKnots-landing-page",
+  },
+  {
+    name: "Food Application",
+    description:
+      "Full Stack Website that provides the best User Experience for the Food Lovers. Having the best User Interface and User Experience.",
+    tags: [
+      {
+        name: "HTML 5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS 3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: food,
+    demoLink: "http://abdulmoizawan.me/food-website/",
+    sourceCodeLink: "https://github.com/abdulmoiz01001/food-website",
   },
   {
     name: "Abdul Moiz Chat App",
