@@ -29,6 +29,7 @@ import {
   tesla,
   food,
   chat,
+  husbar,
   shopify,
   carrent,
   jobit,
@@ -64,7 +65,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Presta Shop Developer",
+    title: "Laravel Developer",
     icon: creator,
   },
 ];
@@ -165,16 +166,16 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Divine Knots",
+    title: "Full stack Web Developer",
+    companyName: "Husbar",
     icon: starbucks,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2024 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to enhancing Husbar's online presence by developing a fully responsive website with seamless navigation and user-friendly features.",
+      "Implemented analytics tools for performance tracking, enabling data-driven decision-making for marketing strategies.",
+      "Created interactive components to engage visitors effectively and improve user experience.",
+      "Delivered solutions that resulted in increased client retention and measurable growth in online reach.",
     ],
   },
 ];
@@ -295,6 +296,32 @@ const projects: TProject[] = [
     image: food,
     demoLink: "http://abdulmoizawan.me/food-website/",
     sourceCodeLink: "https://github.com/abdulmoiz01001/food-website",
+  },
+  {
+    name: "Husbar Digital Marketing Brand",
+    description:
+          "Husbar is a cutting-edge digital marketing agency dedicated to helping businesses achieve their growth potential through innovative strategies and data-driven solutions.  s a part of this project, I contributed to enhancing their online presence by developing a fully responsive website with seamless navigation and user-friendly features.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP Animations",
+        color: "green-text-gradient",
+      },
+    ],
+    image: husbar,
+    demoLink: "https://www.husbar.com/husbar-tech",
+    sourceCodeLink: "https://github.com/abdulmoiz01001/husbar/tree/master",
   },
   {
     name: "Abdul Moiz Chat App",
